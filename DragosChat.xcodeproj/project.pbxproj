@@ -7,21 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		941CAD75F229AFCE77AB2733 /* Pods_DragosChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 953B1C6E7BF39865DAC12487 /* Pods_DragosChat.framework */; };
+		DF2AA41E1DFB56F900D0ED42 /* SelecteazaUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2AA41D1DFB56F900D0ED42 /* SelecteazaUserViewController.swift */; };
+		DF5CEA001DE06A6C007ECE64 /* DragoseliViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CE9FF1DE06A6C007ECE64 /* DragoseliViewController.swift */; };
+		DF5CEA021DE1F571007ECE64 /* PozaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CEA011DE1F571007ECE64 /* PozaViewController.swift */; };
+		DF6985E71E05B08B00F26376 /* VizionareDragoseliViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6985E61E05B08B00F26376 /* VizionareDragoseliViewController.swift */; };
+		DF6B1F8C1DFF26FB008A6A79 /* Utilizator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6B1F8B1DFF26FB008A6A79 /* Utilizator.swift */; };
+		DF6B1F901DFF4041008A6A79 /* Dragosel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6B1F8F1DFF4041008A6A79 /* Dragosel.swift */; };
 		DF9C1E7B1DCFB1A300A5FA51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9C1E7A1DCFB1A300A5FA51 /* AppDelegate.swift */; };
-		DF9C1E7D1DCFB1A300A5FA51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9C1E7C1DCFB1A300A5FA51 /* ViewController.swift */; };
+		DF9C1E7D1DCFB1A300A5FA51 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9C1E7C1DCFB1A300A5FA51 /* SignInViewController.swift */; };
 		DF9C1E801DCFB1A300A5FA51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF9C1E7E1DCFB1A300A5FA51 /* Main.storyboard */; };
 		DF9C1E821DCFB1A300A5FA51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF9C1E811DCFB1A300A5FA51 /* Assets.xcassets */; };
 		DF9C1E851DCFB1A300A5FA51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF9C1E831DCFB1A300A5FA51 /* LaunchScreen.storyboard */; };
+		DF9C1E8D1DCFB31400A5FA51 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF9C1E8C1DCFB31400A5FA51 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78E851329CBF6E1B08867CC9 /* Pods-DragosChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragosChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DragosChat/Pods-DragosChat.debug.xcconfig"; sourceTree = "<group>"; };
+		953B1C6E7BF39865DAC12487 /* Pods_DragosChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DragosChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2AA41D1DFB56F900D0ED42 /* SelecteazaUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelecteazaUserViewController.swift; sourceTree = "<group>"; };
+		DF5CE9FE1DE06897007ECE64 /* DragosChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DragosChat.entitlements; sourceTree = "<group>"; };
+		DF5CE9FF1DE06A6C007ECE64 /* DragoseliViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragoseliViewController.swift; sourceTree = "<group>"; };
+		DF5CEA011DE1F571007ECE64 /* PozaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PozaViewController.swift; sourceTree = "<group>"; };
+		DF6985E61E05B08B00F26376 /* VizionareDragoseliViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VizionareDragoseliViewController.swift; sourceTree = "<group>"; };
+		DF6B1F8B1DFF26FB008A6A79 /* Utilizator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilizator.swift; sourceTree = "<group>"; };
+		DF6B1F8F1DFF4041008A6A79 /* Dragosel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dragosel.swift; sourceTree = "<group>"; };
 		DF9C1E771DCFB1A300A5FA51 /* DragosChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragosChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF9C1E7A1DCFB1A300A5FA51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DF9C1E7C1DCFB1A300A5FA51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF9C1E7C1DCFB1A300A5FA51 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		DF9C1E7F1DCFB1A300A5FA51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF9C1E811DCFB1A300A5FA51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF9C1E841DCFB1A300A5FA51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF9C1E861DCFB1A300A5FA51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF9C1E8C1DCFB31400A5FA51 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E339C08079245CDF0B48BCC3 /* Pods-DragosChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragosChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-DragosChat/Pods-DragosChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +48,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				941CAD75F229AFCE77AB2733 /* Pods_DragosChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BC51610EB59A85CF587286A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78E851329CBF6E1B08867CC9 /* Pods-DragosChat.debug.xcconfig */,
+				E339C08079245CDF0B48BCC3 /* Pods-DragosChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A589E0699B4E272C1599AA6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				953B1C6E7BF39865DAC12487 /* Pods_DragosChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF6B1F8D1DFF2701008A6A79 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DF9C1E7C1DCFB1A300A5FA51 /* SignInViewController.swift */,
+				DF5CE9FF1DE06A6C007ECE64 /* DragoseliViewController.swift */,
+				DF5CEA011DE1F571007ECE64 /* PozaViewController.swift */,
+				DF2AA41D1DFB56F900D0ED42 /* SelecteazaUserViewController.swift */,
+				DF6985E61E05B08B00F26376 /* VizionareDragoseliViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		DF6B1F8E1DFF2723008A6A79 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DF6B1F8B1DFF26FB008A6A79 /* Utilizator.swift */,
+				DF6B1F8F1DFF4041008A6A79 /* Dragosel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		DF9C1E6E1DCFB1A300A5FA51 = {
 			isa = PBXGroup;
 			children = (
 				DF9C1E791DCFB1A300A5FA51 /* DragosChat */,
 				DF9C1E781DCFB1A300A5FA51 /* Products */,
+				2BC51610EB59A85CF587286A /* Pods */,
+				A589E0699B4E272C1599AA6B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +114,15 @@
 		DF9C1E791DCFB1A300A5FA51 /* DragosChat */ = {
 			isa = PBXGroup;
 			children = (
-				DF9C1E7A1DCFB1A300A5FA51 /* AppDelegate.swift */,
-				DF9C1E7C1DCFB1A300A5FA51 /* ViewController.swift */,
+				DF6B1F8D1DFF2701008A6A79 /* ViewController */,
+				DF6B1F8E1DFF2723008A6A79 /* Models */,
 				DF9C1E7E1DCFB1A300A5FA51 /* Main.storyboard */,
+				DF5CE9FE1DE06897007ECE64 /* DragosChat.entitlements */,
+				DF9C1E7A1DCFB1A300A5FA51 /* AppDelegate.swift */,
 				DF9C1E811DCFB1A300A5FA51 /* Assets.xcassets */,
 				DF9C1E831DCFB1A300A5FA51 /* LaunchScreen.storyboard */,
 				DF9C1E861DCFB1A300A5FA51 /* Info.plist */,
+				DF9C1E8C1DCFB31400A5FA51 /* GoogleService-Info.plist */,
 			);
 			path = DragosChat;
 			sourceTree = "<group>";
@@ -71,9 +134,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF9C1E891DCFB1A300A5FA51 /* Build configuration list for PBXNativeTarget "DragosChat" */;
 			buildPhases = (
+				79D76DB4506BC1FED8EB2ED0 /* [CP] Check Pods Manifest.lock */,
 				DF9C1E731DCFB1A300A5FA51 /* Sources */,
 				DF9C1E741DCFB1A300A5FA51 /* Frameworks */,
 				DF9C1E751DCFB1A300A5FA51 /* Resources */,
+				6700A8CF94AEA3A28C2BE8A3 /* [CP] Embed Pods Frameworks */,
+				321A58B33A94E10553214431 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -98,6 +164,11 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 45A92XCUK6;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -127,18 +198,73 @@
 				DF9C1E851DCFB1A300A5FA51 /* LaunchScreen.storyboard in Resources */,
 				DF9C1E821DCFB1A300A5FA51 /* Assets.xcassets in Resources */,
 				DF9C1E801DCFB1A300A5FA51 /* Main.storyboard in Resources */,
+				DF9C1E8D1DCFB31400A5FA51 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		321A58B33A94E10553214431 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DragosChat/Pods-DragosChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6700A8CF94AEA3A28C2BE8A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DragosChat/Pods-DragosChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79D76DB4506BC1FED8EB2ED0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DF9C1E731DCFB1A300A5FA51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF9C1E7D1DCFB1A300A5FA51 /* ViewController.swift in Sources */,
+				DF5CEA021DE1F571007ECE64 /* PozaViewController.swift in Sources */,
+				DF6985E71E05B08B00F26376 /* VizionareDragoseliViewController.swift in Sources */,
+				DF9C1E7D1DCFB1A300A5FA51 /* SignInViewController.swift in Sources */,
+				DF2AA41E1DFB56F900D0ED42 /* SelecteazaUserViewController.swift in Sources */,
 				DF9C1E7B1DCFB1A300A5FA51 /* AppDelegate.swift in Sources */,
+				DF6B1F8C1DFF26FB008A6A79 /* Utilizator.swift in Sources */,
+				DF5CEA001DE06A6C007ECE64 /* DragoseliViewController.swift in Sources */,
+				DF6B1F901DFF4041008A6A79 /* Dragosel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +385,7 @@
 		};
 		DF9C1E8A1DCFB1A300A5FA51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78E851329CBF6E1B08867CC9 /* Pods-DragosChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 45A92XCUK6;
@@ -272,6 +399,7 @@
 		};
 		DF9C1E8B1DCFB1A300A5FA51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E339C08079245CDF0B48BCC3 /* Pods-DragosChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 45A92XCUK6;
@@ -302,6 +430,7 @@
 				DF9C1E8B1DCFB1A300A5FA51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

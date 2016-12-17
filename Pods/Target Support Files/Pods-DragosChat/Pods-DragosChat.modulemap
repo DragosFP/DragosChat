@@ -1,0 +1,6 @@
+framework module Pods_DragosChat {
+  umbrella header "Pods-DragosChat-umbrella.h"
+
+  export *
+  module * { export * }
+}
